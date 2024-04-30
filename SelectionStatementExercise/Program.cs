@@ -22,6 +22,31 @@
             {
                 Console.WriteLine("You got it!");
             }
+
+
+            //Exercise 2
+
+            Console.WriteLine("What was you favorite subject in school?");
+            var subject = Console.ReadLine();
+
+            switch(subject)
+            {
+                case "History":
+                    Console.WriteLine("I liked history too!");
+                    break;
+                case "Math":
+                    Console.WriteLine("Math was good.");
+                    break;
+                case "English":
+                    Console.WriteLine("That was my favorite too!");
+                    break;
+                case "Biology":
+                    Console.WriteLine("Nope. That was way too much for me.");
+                    break;
+                default:
+                    Console.WriteLine("That was a good one. My favorite was history."):
+                        break;
+            }
         }
     }
 }
